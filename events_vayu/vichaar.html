@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vayurvya</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden; /* Hide any potential scrollbars */
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+        }
+
+        @media (min-width: 768px) {
+            img {
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="/assets/img/comingsoon.gif" alt="coming_soon">
+</body>
+</html>
