@@ -1876,6 +1876,53 @@ width:100%;
 
     /* index.css */
 
+	  .item-1, 
+.item-2, 
+.item-3 {
+  position: absolute;
+  display: block;
+  top: 2em;
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+	  
+.item-1{
+  animation-name: anim-1;
+}
+
+.item-2{
+  animation-name: anim-2;
+}
+
+.item-3{
+  animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+  0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+  0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+  0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
    
   </style>
 </head>
@@ -2009,39 +2056,20 @@ width:100%;
                 <section class="about-me" id="about-me " style="width: 80%; margin-left: 10%; margin-top: 3%;">
                   <div class=".container-1111">
                     <div class="about-me-container">
-                      <link rel="stylesheet" href="./assets/css/main.css" />
-                      <div>
-                        <link href="./assets/css/responsive.css" rel="stylesheet" />
 
-                        <div class="primary-container">
-                          <div class="primary-hero">
-                            <img alt="image" id="aboutImage"
-                              src="https://images.unsplash.com/photo-1529859503572-5b9d1e68e952?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjYxODI1OTE&amp;ixlib=rb-1.2.1&amp;w=1500"
-                              class="primary-image" />
-                            <div class="primary-container1">
-                              <h1 class="primary-text">About Vayurvya</h1>
-                              <div class="primary-btn-group">
-                                <button class="primary-button button">Team</button>
-                                <button class="primary-button1 button">Achievements</button>
-                              </div>
-                              <span class="primary-text2">
-                                <span id="line1">Welcome to Vayurvya, a celebration of a decade of excellence by
-                                Aero Club Nitte! In honor of our 10th-year anniversary, we proudly
-                                present a national-level competition featuring thrilling RC
-                                modeling contests, enlightening talks, engaging paper
-                                presentations, and a host of other exciting events.</span> <span id="line2">Join us as we
-                                soar to new heights and embrace the spirit of innovation in the
-                                world of aeronautics. Let's make Vayurvya a testament to our
-                                passion for aviation and the remarkable journey of Aero Club
-                                Nitte.</span> 
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+			    <p class="item-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, rem. Quis
+                        eveniet voluptatum corrupti voluptate nam? Laboriosam exercitationem tenetur temporibus maxime
+                        suscipit totam, deleniti, expedita maiores minus eum, adipisci delectus?</p>
+
+                      <p class="item-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet alias est sequi
+                        cum eligendi neque quisquam molestias expedita ratione? Velit, magnam. Temporibus, vel deleniti
+                        ex nostrum unde molestias amet laborum?</p>
+
+                      <p class="item-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eligendi illum
+                        error excepturi facere quia exercitationem fugiat ipsam autem ut quis consequuntur
+                        necessitatibus, ab voluptates. Eos, magni? Obcaecati, minima facere.</p>
 
                     </div>
-
                   </div>
                 </section>
 
